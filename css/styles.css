@@ -185,12 +185,28 @@ margin-bottom: 0px;
   text-transform: uppercase;
 }
 
-.section.hero-blok {
-  background-color: #757575;
+.hero-content {
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
+
+/* overlay */
+
+.overlay {
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* border: 1px solid crimson;*/
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/header-bgr.jpg');
+  background-color: var(--paragraf-text-color);
+}
+
 
 /* загальні стилі для всіх секцій */
 
@@ -460,6 +476,44 @@ margin-bottom: 0px;
   margin: 0;
   padding: 0;
 }
+
+/* іконки свг*/
+
+.contact-button {
+  display: block;
+  padding: 0;
+  border: none;
+  color: #757575;
+  background-color: white;
+  }
+
+.contact-button-icon {
+display: block;
+fill: currentColor;
+padding: 0;
+}
+
+
+.contact-button-icon:hover,
+.contact-button-icon:focus {
+  fill: var(--acent-color);
+  cursor: pointer;
+}
+
+.feachers-button {
+  padding: 0;
+  margin-bottom: 30px;
+  border: none;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  }
+
+  .feachers-icon {
+    height: 70px;
+  }
+
 
 /*як робити картки з wrap 
 
