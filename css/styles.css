@@ -535,23 +535,16 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 
 /* іконки свг*/
 
-.contact-icon.env {
+.contact-icon {
   fill: currentColor;
   margin-right: 10px;
   padding: 0;
-  height: 12px;
   vertical-align: middle;
-}
-
-.contact-icon.tel {
-  fill: currentColor;
-  margin-right: 10px;
   margin-top: 0;
   margin-bottom: 0;
-  padding: 0;
-  height: 16px;
-  vertical-align: middle;
 }
+
+
 
 .contact-icon:hover,
 .contact-icon:focus {
@@ -570,7 +563,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 }
 
 .feachers-icon {
-  height: 70px;
+  
 }
 
 .sotail-links {
@@ -613,8 +606,6 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 .sotial-icon {
   display: flex;
   justify-content: space-between;
-  width: 20px;
-  height: 20px;
   fill: currentColor;
 }
 
@@ -646,7 +637,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 
 .logo-client {
   fill: currentColor;
-}
+  }
 
 .clients-button:hover svg {
   fill: var(--acent-color);
